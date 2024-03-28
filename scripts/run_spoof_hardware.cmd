@@ -1,0 +1,1 @@
+PowerShell -Command "Start-Process powershell.exe -Verb RunAs -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File %USERPROFILE%\Desktop\spoof_hardware.ps1'"
