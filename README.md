@@ -1,5 +1,7 @@
 # Creating Stealthy Virtual Machines
 
+Creating a Stealthy Virtual Machine for Malware Analysis, without using hardware passthrough from the host OS to minimize risk.
+
 ## Modifications to the libvirt configuration file
 
 ### Windows & Linux
