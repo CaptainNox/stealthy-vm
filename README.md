@@ -58,5 +58,5 @@ To achieve nearly complete stealth, implementing a custom hypervisor which is de
 
 ### Possible bypass by hooking CPUID instruction at hypervisor level
 
- - [SimpleVisor](https://github.com/ionescu007/SimpleVisor)
+In order to return false information from the CPUID instruction, we need to hook it on the hypervisor level. That needs to be implemented into a hypervisor itself. We could use [SimpleVisor](https://github.com/ionescu007/SimpleVisor) as a template for this.
 
